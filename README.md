@@ -60,6 +60,10 @@ npm start
   ```
 
 ## Fitur program
+> By default program will run on port 3000. If you want to run on other file please create a `.env` file, and add line `port=<portnumber>`.
+> In this project default localhost url will be `http://localhost:3000`
+
+
 1. Guest form:
 
 
