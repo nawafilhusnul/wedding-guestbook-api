@@ -66,6 +66,7 @@ router.get('/guests', function (req, res, next) {
       return;
     }
 
+    // hide the phone and address
     const securedData = rows.map(row => ({
       ...row,
       phone: undefined,

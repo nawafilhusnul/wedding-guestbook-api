@@ -29,6 +29,7 @@ router.post('/login', function (req, res, next) {
       return;
     }
 
+    // check password
     const validPassword = bcryptjs.compareSync(req.body.password, row.password);
     if (!validPassword) {
       res.status(400).json({
@@ -37,6 +38,7 @@ router.post('/login', function (req, res, next) {
       return;
     }
 
+    // sign a token
     const token = jwt.sign({ username: row.username, role: row.role }, "secret");
 
     res.status(200).json(
