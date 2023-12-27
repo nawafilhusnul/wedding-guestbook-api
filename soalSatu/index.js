@@ -9,7 +9,7 @@ function printMultiplicationTable(number) {
     for (let j = 1; j <= number; j++) {
       tempLine += `${i * j} `
     }
-    console.log(`${tempLine}\n`)
+    console.log(tempLine)
   }
 }
 
