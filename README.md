@@ -111,7 +111,7 @@ Response Body
 		},
 		{
 			"id": 2,
-			"name": "Khansa",
+			"name": "Khairul",
 			"notes": "Pacar Teman Dekat"
 		},
 		{

@@ -24,7 +24,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
           // Table just created, creating some rows
           let insert = 'INSERT INTO guests (name, address, phone, notes) VALUES (?,?,?,?)'
           db.run(insert, ["Husnul", "Jl.Komando IV, No.21, Jakarta Selatan.", "+6282249907755", "Teman Dekat"])
-          db.run(insert, ["Khansa", "Jl.Komando IV, No.22, Jakarta Selatan.", "+6282249907756", "Pacar Teman Dekat"])
+          db.run(insert, ["Khairul", "Jl.Komando IV, No.22, Jakarta Selatan.", "+6282249907756", "Pacar Teman Dekat"])
         }
       });
     db.run(`CREATE TABLE users (
