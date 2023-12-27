@@ -1,5 +1,29 @@
 # Wedding Guestbook
 
+## Folder Structure
+```bash
+.
+├── REAME.md
+├── soalDua
+│   ├── app.js
+│   ├── bin
+│   │   └── www
+│   ├── config
+│   │   └── database.js
+│   ├── db.sqlite
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   │   ├── auths.js
+│   │   └── guests.js
+│   └── views
+│       ├── error.jade
+│       ├── index.jade
+│       └── layout.jade
+└── soalSatu
+    └── index.js
+```
+
 ## Cara menjalankan program
 1. Clone this repository.
 2. Move directory to cloned one.
@@ -21,6 +45,7 @@ npm install
 ```bash
 npm start
 ```
+
 
 ## Soal tabel perkalian (Soal No.1)
 - Pengerjaan soal no.1 dilakukan di folder [soalSatu](./soalSatu/).
